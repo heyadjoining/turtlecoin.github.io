@@ -12,7 +12,9 @@ Address Prefix : "TRTL".
 Currency Code  : "TRTL".  
 ```
 
-## Make a Wallet
+## Using TurtleCoin
+
+### Make a Wallet
 Download the binary tarball distribution from the [Release](https://github.com/turtlecoin/turtlecoin/releases) section of the repo and unpack it, or build from source. Then run
 
 ```bash
@@ -20,22 +22,34 @@ Download the binary tarball distribution from the [Release](https://github.com/t
 ```
 
 Press `G` to generate new wallet.  
-enter filename (default wallet.bin)  
-enter password (no confirmation, so be careful)  
-type `address` to get your wallet address.
+Enter a filename for your wallet (default is _wallet.bin_).  
+Enter a passphrase for your wallet. *Warning:* There is no passphrase confirmation, so be careful!
 
-## Start the Daemon
-With wallet running, run
+### Get Your Address
+In the running _simplewallet_ interface, type `address` and press enter.
+
+### Start the Daemon
+With _simplewallet_ running (in background or another terminal), run
 ```bash
 ./Turtlecoind
 ```
 
-## Mine
-With wallet and daemon running, run
+### Mine
+With _simplewallet_ and `Turtlecoind` running (in background or another terminal), run
 
 ```bash
-miner --address <address>
+./miner --address <address>
 ```
+
+### Check Your Balance
+In the running _simplewallet_, type `balance` and press enter to see your balance.
+
+### Send TurtleCoin
+In the running _simplewallet_, type
+```
+transfer 0 <destination_address> <amount>
+```
+(note that `0` is the _mixin_ arg and will vary in future.)
 
 ## Official Communications
 - http://turtlecoin.lol/
