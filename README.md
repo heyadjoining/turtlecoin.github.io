@@ -13,9 +13,12 @@ Currency code is "TRTL".
  
 Official Communications:
 http://turtlecoin.lol/
-discord.turtlecoin.lol
-twitter.turtlecoin.lol
- 
+http://discord.turtlecoin.lol
+http://twitter.turtlecoin.lol
+
+Github:
+http://github.turtlecoin.lol
+
 HELPERS NEEDED:
 PR Team
 Graphics Team
