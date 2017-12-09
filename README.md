@@ -31,11 +31,11 @@ In the running _simplewallet_ interface, type `address` and press enter.
 ### Start the Daemon
 With _simplewallet_ running (in background or another terminal), run
 ```bash
-./Turtlecoind
+./TurtleCoind
 ```
 
 ### Mine
-With _simplewallet_ and `Turtlecoind` running (in background or another terminal), run
+With _simplewallet_ and `TurtleCoind` running (in background or another terminal), run
 
 ```bash
 ./miner --address <address>
