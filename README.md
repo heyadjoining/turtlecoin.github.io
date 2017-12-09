@@ -1,2 +1,2 @@
-# gh-pages
+# TurtleCoin
 website for turtlecoin
