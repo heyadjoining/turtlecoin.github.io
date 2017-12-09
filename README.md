@@ -1,13 +1,15 @@
 # TurtleCoin(TRTL)
 
 ## [ANN]
-Name: TurtleCoin  
+```
+Name:          : TurtleCoin  
 Algorithm      : [CryptoNote](http://cryptonote.org) - ASIC resistant, same algo as monero, aeon and bytecoin  
 Time           : 30 second block time - made by and for miners.  
 Econ           : Two decimal places like USD  
 Supply Cap     : Plenty.  
 Address Prefix : "TRTL".   
 Currency Code  : "TRTL".  
+```
 
 ## Make a Wallet
 Download the binary tarball distribution from the [Release](https://github.com/turtlecoin/turtlecoin/releases) section of the repo and unpack it, or build from source. Then run
