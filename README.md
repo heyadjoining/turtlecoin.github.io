@@ -3,7 +3,8 @@
 ## [ANN]
 ```
 Name:          : TurtleCoin  
-Algorithm      : [CryptoNote](http://cryptonote.org) - ASIC resistant, same algo as monero, aeon and bytecoin  
+Algorithm      : [CryptoNote](http://cryptonote.org)
+                 ASIC resistant, same algo as monero, aeon and bytecoin  
 Time           : 30 second block time - made by and for miners.  
 Econ           : Two decimal places like USD  
 Supply Cap     : Plenty.  
