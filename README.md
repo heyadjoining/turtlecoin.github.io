@@ -52,12 +52,12 @@ transfer 0 <destination_address> <amount>
 (note that `0` is the _mixin_ arg and will vary in future.)
 
 ## Official Communications
-- http://turtlecoin.lol/
-- http://discord.turtlecoin.lol
-- http://twitter.turtlecoin.lol
+- <http://turtlecoin.lol/>
+- <http://discord.turtlecoin.lol>
+- <http://twitter.turtlecoin.lol>
 
 ## Github Repositories
-- http://github.turtlecoin.lol
+- <http://github.turtlecoin.lol>
 
 ## Contributing
 If you want to start contributing, the best bet right now is to join our discord and discuss with the community there. Look for RockSteady, bebop, or michelangelo for guidence. Cowabunga!
