@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TurtleCoin [TRTL]</title>
+    <description>TurtleCoin is a fun, community-driven, CryptoNote based blockchain focused on community, user experience and pizza.
+</description>
+    <link>https://turtlecoin.github.io/index.html</link>
+    <atom:link href="https://turtlecoin.github.io/feed-en.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 13 Dec 2017 17:11:28 -0600</pubDate>
+    <lastBuildDate>Wed, 13 Dec 2017 17:11:28 -0600</lastBuildDate>
+    <generator>Jekyll v3.1.2</generator>
+    
+    
+      <item>
+        <title>Cayman Blog Theme</title>
+        <description>&lt;p&gt;This is an example of a project page. As you can see there are buttons in the header to go to the repository, or directly download the source code.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 11 Oct 2017 00:00:00 -0500</pubDate>
+        <link>https://turtlecoin.github.io/example-project-page.html</link>
+        <guid isPermaLink="true">https://turtlecoin.github.io/example-project-page.html</guid>
+        
+        <category>example</category>
+        
+        <category>project</category>
+        
+        <category>jekyll theme</category>
+        
+        <category>cayman blog theme</category>
+        
+        
+        <category>projects</category>
+        
+      </item>
+    
+  </channel>
+</rss>
