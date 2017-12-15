@@ -83,12 +83,12 @@
   <meta name="twitter:image:src" content="https://turtlecoin.github.io/assets/img/profile-225.png" />
   <meta name="twitter:image" content="https://turtlecoin.github.io/assets/img/profile-225.png" />
 
-<meta name="twitter:url" content="https://turtlecoin.github.io/about.html" />
+<meta name="twitter:url" content="https://turtlecoin.github.io/docs.html" />
 
 <!-- Open Graph data -->
 <meta property="og:title" content="About | TurtleCoin [TRTL]" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://turtlecoin.github.io/about.html" />
+<meta property="og:url" content="https://turtlecoin.github.io/docs.html" />
 
   <meta property="og:image" content="https://turtlecoin.github.io/assets/img/profile-225.png" />
 
@@ -125,7 +125,7 @@
 
     
 
-    <link rel="canonical" href="https://turtlecoin.github.io/about.html">
+    <link rel="canonical" href="https://turtlecoin.github.io/docs.html">
 
     <link rel="alternate" type="application/rss+xml" title="TurtleCoin [TRTL]" href="https://turtlecoin.github.io/feed-en.xml">
 
@@ -261,7 +261,102 @@
       <article>
 
   <div>
-    <p>More about TurtleCoin coming soon! In the meantime, be sure to read the <a href="/docs.html">docs</a></p>
+    <h2 id="ann">ANN</h2>
+<div class="highlighter-rouge"><pre class="highlight"><code>Name:          : TurtleCoin  
+Algorithm      : [CryptoNote](http://cryptonote.org)
+                 -ASIC resistant
+                 -Enhanced Privacy
+                 -Elastic Blocks
+                 -Fair Mining
+Time           : 30 second targey block time - made by and for miners.  
+Econ           : Two decimal places like USD  
+Supply Cap     : Plenty.  
+Address Prefix : "TRTL".   
+Currency Code  : "TRTL".  
+</code></pre>
+</div>
+
+<h2 id="installation">Installation</h2>
+
+<h3 id="linux">Linux</h3>
+
+<p>Download the binary tarball distribution from the <a href="https://github.com/turtlecoin/turtlecoin/releases">Release</a> page and unpack it, or build from source.</p>
+
+<h3 id="windows">Windows</h3>
+<h3 id="mac">Mac</h3>
+
+<h2 id="running-turtlecoin">Running TurtleCoin</h2>
+
+<h3 id="starting-the-turtlecoind-daemon">Starting the TurtleCoind Daemon</h3>
+<p>With <em>simplewallet</em> running (in background or another terminal), run</p>
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>./TurtleCoind
+</code></pre>
+</div>
+<h3 id="running-the-simplewallet-client">Running the simplewallet Client</h3>
+
+<h4 id="linux-1">Linux</h4>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>./simplewallet
+</code></pre>
+</div>
+
+<h4 id="windows-1">Windows</h4>
+<h4 id="mac-1">Mac</h4>
+
+<h3 id="create-a-wallet">Create a Wallet</h3>
+<p>In the running <code class="highlighter-rouge">simplewallet</code> client:<br />
+Press <code class="highlighter-rouge">G</code> to generate new wallet.<br />
+Enter a filename for your wallet (default is <em>wallet.bin</em>).<br />
+Enter a passphrase for your wallet. <em>Warning:</em> There is no passphrase confirmation, so be careful!</p>
+
+<h3 id="get-your-address">Get Your Address</h3>
+<p>In the running <em>simplewallet</em> client, type <code class="highlighter-rouge">address</code> and press enter.</p>
+
+<h2 id="using-the-turtlecoin-simplewallet">Using the TurtleCoin simplewallet</h2>
+
+<h3 id="check-your-balance">Check Your Balance</h3>
+<p>In the running <em>simplewallet</em>, type <code class="highlighter-rouge">balance</code> and press enter to see your balance.</p>
+
+<h3 id="send-turtlecoin">Send TurtleCoin</h3>
+<p>In the running <em>simplewallet</em>, type</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>transfer 0 &lt;destination_address&gt; &lt;amount&gt;
+</code></pre>
+</div>
+<p>(note that <code class="highlighter-rouge">0</code> is the <em>mixin</em> arg. For enhanced security/privacy of the the transaction, increase this number)</p>
+
+<h2 id="mining">Mining</h2>
+
+<h3 id="linux-2">Linux</h3>
+<p>With <em>simplewallet</em> and <code class="highlighter-rouge">TurtleCoind</code> running (in background or another terminal), run</p>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code>./miner --address &lt;address&gt;
+</code></pre>
+</div>
+
+<h2 id="official-communications">Official Communications</h2>
+<ul>
+  <li><a href="http://turtlecoin.lol/">http://turtlecoin.lol/</a></li>
+  <li><a href="http://discord.turtlecoin.lol">http://discord.turtlecoin.lol</a></li>
+  <li><a href="http://twitter.turtlecoin.lol">http://twitter.turtlecoin.lol</a></li>
+</ul>
+
+<h2 id="github-repositories">Github Repositories</h2>
+<ul>
+  <li><a href="http://github.turtlecoin.lol">http://github.turtlecoin.lol</a></li>
+</ul>
+
+<h2 id="contributing">Contributing</h2>
+<p>If you want to start contributing, the best bet right now is to join our discord and discuss with the community there. Look for RockSteady, bebop, or michelangelo for guidence. Cowabunga!</p>
+
+<h3 id="helpers-needed">Helpers Needed</h3>
+<ul>
+  <li>PR Team</li>
+  <li>Graphics Team</li>
+  <li>Mining Pool Operators (compatible with monero/aeon/bytecoin mining tools and pools)</li>
+  <li>Windows Dev to compile builds</li>
+  <li>Apple Dev to compile build</li>
+  <li>Packagers to package various distributions (ArchLinux, Ubuntu, RHEL/CentOS/Fedora, etc)</li>
+</ul>
 
   </div>
 
