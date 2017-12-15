@@ -118,6 +118,12 @@
           <a href="{{ page.repository.tar_url }}" class="btn" target="_blank">Download .tar.gz</a>
         {% endif %}
       {% endif %}
+
+      {% if page.homepage.repository_url %}
+          <a href="{{ page.homepage.repository_url }}" class="btn" target="_blank">Source Code</a>
+          <a href="{{ page.homepage.release_url }}" class="btn" target="_blank">Download</a>
+      {% endif %}
+
       <!-- Post tagline -->
       {% if page.layout == 'post' %}
         <!-- <h2 class="project-date">

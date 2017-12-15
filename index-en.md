@@ -15,12 +15,9 @@ tagline: > # this means to ignore newlines until "repository:"
 excerpt: >
   TurtleCoin is a fun, community-driven, CryptoNote based blockchain
   focused on community, user experience and pizza.
-repository:
-  is_project_page: true
-  show_downloads: true
+homepage:
   repository_url: https://github.com/turtlecoin
-  zip_url: https://github.com/TurtleCoin
-  tar_url: https://guthub.com/TurtleCoin
+  release_url: https://github.com/turtlecoin/turtlecoin/releases/latest
 ref: home
 lang: en
 ---
