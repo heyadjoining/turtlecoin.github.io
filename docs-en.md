@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Docs
 tagline:
 excerpt: >
   TurtleCoin [TRTL] is a CryptoNote based blockchain focused on community, users, and fun
@@ -95,11 +95,3 @@ With _simplewallet_ and `TurtleCoind` running (in background or another terminal
 
 ## Contributing
 If you want to start contributing, the best bet right now is to join our discord and discuss with the community there. Look for RockSteady, bebop, or michelangelo for guidence. Cowabunga!
-
-### Helpers Needed
-- PR Team
-- Graphics Team
-- Mining Pool Operators (compatible with monero/aeon/bytecoin mining tools and pools)
-- Windows Dev to compile builds
-- Apple Dev to compile build
-- Packagers to package various distributions (ArchLinux, Ubuntu, RHEL/CentOS/Fedora, etc)
