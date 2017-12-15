@@ -24,12 +24,8 @@ lang: en
 
   TurtleCoin is a fun, community-driven, CryptoNote based blockchain
   focused on community, user experience and pizza.
-<h2>Latest Articles</h2>
+<h2>Latest Announcements</h2>
 <div>&nbsp;</div>
 {% include list-category-posts.html lang=page.lang category="articles" %}
 
 ---
-
-<h2>Latest 3 Projects</h2>
-<div>&nbsp;</div>
-{% include list-category-posts.html lang=page.lang category="projects" max=3 %}
